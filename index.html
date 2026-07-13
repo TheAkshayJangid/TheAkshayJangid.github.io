@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Akshay Jangid — Laravel Developer & Backend Engineer. Portfolio showcasing scalable web applications, REST APIs, and real-time systems." />
+  <meta name="author" content="Akshay Jangid" />
+  <title>Akshay Jangid | Laravel Developer</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💻</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav id="navbar" aria-label="Main navigation">
+    <a href="#hero" class="nav-logo">AJ<span>.</span></a>
+    <ul class="nav-links" id="nav-links" role="list">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-right">
+      <button id="theme-toggle" aria-label="Toggle theme">🌙</button>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header id="hero">
+    <div class="hero-particles" id="particles" aria-hidden="true"></div>
+    <div class="hero-content">
+      <p class="hero-greeting">👋 Hello, I'm</p>
+      <h1 class="hero-name">Akshay <span class="highlight">Jangid</span></h1>
+      <div class="hero-typing">
+        <span class="typing-prefix">I build </span>
+        <span id="typing-text"></span><span class="cursor" aria-hidden="true">|</span>
+      </div>
+      <p class="hero-desc">
+        Laravel Developer with hands-on experience building scalable web applications,
+        REST APIs, and real-time systems. Passionate about clean backend architecture
+        and end-to-end project delivery.
+      </p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn-primary">View Projects ↓</a>
+        <a href="#contact" class="btn-secondary">Hire Me</a>
+      </div>
+      <div class="hero-stats">
+        <div class="hero-stat"><span class="stat-num">1+</span><span class="stat-lbl">Year Experience</span></div>
+        <div class="hero-stat"><span class="stat-num">4+</span><span class="stat-lbl">Projects Built</span></div>
+        <div class="hero-stat"><span class="stat-num">10+</span><span class="stat-lbl">Tech Stack</span></div>
+      </div>
+    </div>
+    <div class="hero-code-card" aria-hidden="true">
+      <div class="code-card-header">
+        <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+        <span class="code-card-title">AkshayJangid.php</span>
+      </div>
+      <pre class="code-card-body"><code><span class="c-keyword">class</span> <span class="c-class">AkshayJangid</span> {
+
+  <span class="c-keyword">public</span> <span class="c-var">$role</span> = <span class="c-str">'Laravel Developer'</span>;
+  <span class="c-keyword">public</span> <span class="c-var">$location</span> = <span class="c-str">'Jaipur, Rajasthan'</span>;
+  <span class="c-keyword">public</span> <span class="c-var">$skills</span> = [
+    <span class="c-str">'Laravel'</span>, <span class="c-str">'PHP'</span>,
+    <span class="c-str">'REST API'</span>, <span class="c-str">'MySQL'</span>,
+    <span class="c-str">'JavaScript'</span>,
+  ];
+
+  <span class="c-keyword">public function</span> <span class="c-fn">passion</span>() {
+    <span class="c-keyword">return</span> <span class="c-str">'Clean code &amp;
+    scalable systems'</span>;
+  }
+}</code></pre>
+    </div>
+  </header>
+
+  <!-- ABOUT -->
+  <section id="about" aria-labelledby="about-heading">
+    <div class="section-header reveal">
+      <p class="section-label">Who I Am</p>
+      <h2 class="section-title" id="about-heading">About <span>Me</span></h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="about-grid">
+      <div class="about-img-wrap reveal">
+        <div class="about-avatar">
+          <span class="avatar-initials">AJ</span>
+          <div class="avatar-ring"></div>
+          <div class="about-badge">💼 Web Developer</div>
+        </div>
+      </div>
+      <div class="about-text reveal">
+        <h3>Laravel Developer & Backend Engineer</h3>
+        <p>I'm a passionate Laravel Developer based in Jaipur, Rajasthan, with hands-on experience building full-stack web applications and scalable backend systems. I specialize in end-to-end project development — from database architecture to API design to production deployment.</p>
+        <p>Currently working at <strong>Brixcode Technologies LLP</strong>, I've built real-world systems including a Multi-Vendor Laundry Platform, Bus Booking System, E-commerce Application, and School Management System — all with robust REST APIs and clean backend architecture.</p>
+        <p>I thrive on solving complex backend challenges and integrating third-party services like payment gateways, Firebase, WhatsApp API, and SMS gateways.</p>
+        <div class="about-info-grid">
+          <div class="info-item"><span class="info-label">📍 Location</span><span class="info-value">Jaipur, Rajasthan</span></div>
+          <div class="info-item"><span class="info-label">📧 Email</span><span class="info-value">akshayjangid703@gmail.com</span></div>
+          <div class="info-item"><span class="info-label">📞 Phone</span><span class="info-value">+91 9636926767</span></div>
+          <div class="info-item"><span class="info-label">🎓 Education</span><span class="info-value">BCA — University of Technology</span></div>
+          <div class="info-item"><span class="info-label">💼 Status</span><span class="info-value">Open to Opportunities</span></div>
+          <div class="info-item"><span class="info-label">🗣️ Languages</span><span class="info-value">Hindi, English</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" aria-labelledby="skills-heading">
+    <div class="section-header reveal">
+      <p class="section-label">What I Work With</p>
+      <h2 class="section-title" id="skills-heading">Technical <span>Skills</span></h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="skills-grid">
+
+      <div class="skill-card reveal">
+        <div class="skill-card-icon">⚙️</div>
+        <h3 class="skill-card-title">Backend</h3>
+        <div class="skill-tags">
+          <span class="tag">PHP</span>
+          <span class="tag">Laravel</span>
+          <span class="tag">REST API</span>
+          <span class="tag">Cron Jobs</span>
+          <span class="tag">MVC Architecture</span>
+          <span class="tag">Authentication</span>
+          <span class="tag">Role-Based Access</span>
+        </div>
+        <div class="skill-bars">
+          <div class="sbar"><div class="sbar-label"><span>Laravel / PHP</span><span>88%</span></div><div class="sbar-track"><div class="sbar-fill" data-w="88%"></div></div></div>
+          <div class="sbar"><div class="sbar-label"><span>REST API Design</span><span>85%</span></div><div class="sbar-track"><div class="sbar-fill" data-w="85%"></div></div></div>
+        </div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="skill-card-icon">🎨</div>
+        <h3 class="skill-card-title">Frontend</h3>
+        <div class="skill-tags">
+          <span class="tag">HTML5</span>
+          <span class="tag">CSS3</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag">jQuery</span>
+          <span class="tag">Ajax</span>
+          <span class="tag">Responsive Design</span>
+        </div>
+        <div class="skill-bars">
+          <div class="sbar"><div class="sbar-label"><span>HTML / CSS</span><span>80%</span></div><div class="sbar-track"><div class="sbar-fill" data-w="80%"></div></div></div>
+          <div class="sbar"><div class="sbar-label"><span>JavaScript / jQuery</span><span>75%</span></div><div class="sbar-track"><div class="sbar-fill" data-w="75%"></div></div></div>
+        </div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="skill-card-icon">🗄️</div>
+        <h3 class="skill-card-title">Database</h3>
+        <div class="skill-tags">
+          <span class="tag">MySQL</span>
+          <span class="tag">Query Optimization</span>
+          <span class="tag">Schema Design</span>
+          <span class="tag">Relationships</span>
+          <span class="tag">Migrations</span>
+        </div>
+        <div class="skill-bars">
+          <div class="sbar"><div class="sbar-label"><span>MySQL</span><span>82%</span></div><div class="sbar-track"><div class="sbar-fill" data-w="82%"></div></div></div>
+          <div class="sbar"><div class="sbar-label"><span>Database Design</span><span>80%</span></div><div class="sbar-track"><div class="sbar-fill" data-w="80%"></div></div></div>
+        </div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="skill-card-icon">🔗</div>
+        <h3 class="skill-card-title">Integrations & Tools</h3>
+        <div class="skill-tags">
+          <span class="tag">WhatsApp API</span>
+          <span class="tag">Firebase</span>
+          <span class="tag">SMS Gateway</span>
+          <span class="tag">Payment Gateway</span>
+          <span class="tag">GitHub</span>
+          <span class="tag">Postman</span>
+          <span class="tag">VS Code</span>
+        </div>
+        <div class="skill-bars">
+          <div class="sbar"><div class="sbar-label"><span>API Integrations</span><span>85%</span></div><div class="sbar-track"><div class="sbar-fill" data-w="85%"></div></div></div>
+          <div class="sbar"><div class="sbar-label"><span>Git / GitHub</span><span>78%</span></div><div class="sbar-track"><div class="sbar-fill" data-w="78%"></div></div></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" aria-labelledby="exp-heading">
+    <div class="section-header reveal">
+      <p class="section-label">My Journey</p>
+      <h2 class="section-title" id="exp-heading">Work <span>Experience</span></h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="timeline">
+
+      <div class="tl-item reveal">
+        <div class="tl-dot"></div>
+        <div class="tl-card">
+          <div class="tl-header">
+            <div>
+              <h3 class="tl-role">Web Developer</h3>
+              <p class="tl-company">Brixcode Technologies LLP</p>
+            </div>
+            <span class="tl-date">May 2024 — Present</span>
+          </div>
+          <ul class="tl-list">
+            <li>Developed Bus Booking Management System with complete backend architecture using Laravel, handling APIs, cron jobs, and booking workflows.</li>
+            <li>Integrated WhatsApp API, Firebase Push Notifications, and SMS Gateway for real-time communication.</li>
+            <li>Designed and optimized MySQL databases, improving query performance and system efficiency.</li>
+            <li>Built and deployed Laundry Management System and NGO platforms, managing full lifecycle from development to production.</li>
+            <li>Created scalable REST APIs used for frontend and third-party integrations.</li>
+            <li>Improved application performance and reduced load time through backend optimization.</li>
+          </ul>
+          <div class="tl-tags">
+            <span class="tag sm">Laravel</span><span class="tag sm">PHP</span><span class="tag sm">MySQL</span>
+            <span class="tag sm">REST API</span><span class="tag sm">Firebase</span><span class="tag sm">WhatsApp API</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="tl-item reveal">
+        <div class="tl-dot"></div>
+        <div class="tl-card">
+          <div class="tl-header">
+            <div>
+              <h3 class="tl-role">Web Developer (Intern)</h3>
+              <p class="tl-company">Job Babu — AI Recruitment Platform</p>
+            </div>
+            <span class="tl-date">Nov 2023 — Jan 2024</span>
+          </div>
+          <ul class="tl-list">
+            <li>Worked on project structuring, database design, and API integrations.</li>
+            <li>Developed features using jQuery, PHP, Ajax, and improved coding skills in PHP & JavaScript.</li>
+            <li>Practiced GitHub for version control.</li>
+          </ul>
+          <div class="tl-tags">
+            <span class="tag sm">PHP</span><span class="tag sm">jQuery</span><span class="tag sm">Ajax</span><span class="tag sm">GitHub</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="tl-item reveal">
+        <div class="tl-dot"></div>
+        <div class="tl-card">
+          <div class="tl-header">
+            <div>
+              <h3 class="tl-role">Web Page Designing & Development Program</h3>
+              <p class="tl-company">Broadcast Engineering Consultants India Ltd</p>
+            </div>
+            <span class="tl-date">Jul 2023 — Sep 2023</span>
+          </div>
+          <ul class="tl-list">
+            <li>Gained hands-on experience in HTML, CSS, JavaScript, and responsive web page development.</li>
+            <li>Designed and built multiple static and dynamic web pages as part of structured training projects.</li>
+            <li>Learned core web development fundamentals, UI layout practices, and proper coding standards.</li>
+          </ul>
+          <div class="tl-tags">
+            <span class="tag sm">HTML</span><span class="tag sm">CSS</span><span class="tag sm">JavaScript</span><span class="tag sm">Responsive Design</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" aria-labelledby="proj-heading">
+    <div class="section-header reveal">
+      <p class="section-label">What I've Built</p>
+      <h2 class="section-title" id="proj-heading">My <span>Projects</span></h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="projects-grid">
+
+      <div class="proj-card reveal">
+        <div class="proj-card-top">
+          <div class="proj-icon">🧺</div>
+          <div class="proj-links">
+            <a href="#" class="proj-link" title="GitHub" aria-label="GitHub">⬡</a>
+          </div>
+        </div>
+        <h3 class="proj-title">Multi-Vendor Laundry Management System</h3>
+        <p class="proj-desc">A full-featured multi-vendor laundry platform with separate panels for Admin, Shops, Riders, and Users. Features wallet system, split payments, and real-time order tracking.</p>
+        <ul class="proj-highlights">
+          <li>Separate panels for Admin, Shops, Riders, Users</li>
+          <li>Wallet system & split payments within single order</li>
+          <li>Multiple payment modes — online, wallet, COD</li>
+          <li>Role-based access & workflow automation</li>
+        </ul>
+        <div class="proj-tags">
+          <span class="tag sm">Laravel</span><span class="tag sm">PHP</span><span class="tag sm">MySQL</span><span class="tag sm">REST API</span><span class="tag sm">Payment Gateway</span>
+        </div>
+      </div>
+
+      <div class="proj-card reveal">
+        <div class="proj-card-top">
+          <div class="proj-icon">🚌</div>
+          <div class="proj-links">
+            <a href="#" class="proj-link" title="GitHub" aria-label="GitHub">⬡</a>
+          </div>
+        </div>
+        <h3 class="proj-title">Bus Booking Management System</h3>
+        <p class="proj-desc">A complete bus booking system with seat selection, route management, real-time notifications, and admin panel for managing buses, schedules, and bookings.</p>
+        <ul class="proj-highlights">
+          <li>Seat selection & route management</li>
+          <li>Firebase notifications & SMS/WhatsApp API</li>
+          <li>Payment gateway integration</li>
+          <li>Optimized DB queries for performance</li>
+        </ul>
+        <div class="proj-tags">
+          <span class="tag sm">Laravel</span><span class="tag sm">Firebase</span><span class="tag sm">WhatsApp API</span><span class="tag sm">MySQL</span><span class="tag sm">REST API</span>
+        </div>
+      </div>
+
+      <div class="proj-card reveal">
+        <div class="proj-card-top">
+          <div class="proj-icon">🛒</div>
+          <div class="proj-links">
+            <a href="#" class="proj-link" title="GitHub" aria-label="GitHub">⬡</a>
+          </div>
+        </div>
+        <h3 class="proj-title">E-commerce Web Application</h3>
+        <p class="proj-desc">A scalable e-commerce platform supporting product variations, cart management, order tracking, and an admin panel for inventory and product management.</p>
+        <ul class="proj-highlights">
+          <li>Product variations (size, color, etc.)</li>
+          <li>Cart, checkout, order management</li>
+          <li>Payment gateway & coupon/discount system</li>
+          <li>Admin panel for inventory tracking</li>
+        </ul>
+        <div class="proj-tags">
+          <span class="tag sm">Laravel</span><span class="tag sm">PHP</span><span class="tag sm">MySQL</span><span class="tag sm">REST API</span><span class="tag sm">Payment Gateway</span>
+        </div>
+      </div>
+
+      <div class="proj-card reveal">
+        <div class="proj-card-top">
+          <div class="proj-icon">🏫</div>
+          <div class="proj-links">
+            <a href="#" class="proj-link" title="GitHub" aria-label="GitHub">⬡</a>
+          </div>
+        </div>
+        <h3 class="proj-title">School Management System (Multi-Role)</h3>
+        <p class="proj-desc">A multi-role school management system with Admin, Teacher, and Student panels featuring attendance tracking, marks management, and report generation.</p>
+        <ul class="proj-highlights">
+          <li>Multi-role: Admin, Teacher, Student</li>
+          <li>Attendance tracking & marks management</li>
+          <li>Report generation & academic dashboards</li>
+          <li>REST APIs for web/mobile integration</li>
+        </ul>
+        <div class="proj-tags">
+          <span class="tag sm">Laravel</span><span class="tag sm">PHP</span><span class="tag sm">MySQL</span><span class="tag sm">REST API</span><span class="tag sm">Multi-Role Auth</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" aria-labelledby="edu-heading">
+    <div class="section-header reveal">
+      <p class="section-label">Academic Background</p>
+      <h2 class="section-title" id="edu-heading">My <span>Education</span></h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="edu-grid">
+      <div class="edu-card reveal">
+        <div class="edu-icon">🎓</div>
+        <div class="edu-body">
+          <h3>Bachelor of Computer Applications (BCA)</h3>
+          <p class="edu-inst">University of Technology</p>
+          <span class="edu-year">2023</span>
+        </div>
+      </div>
+      <div class="edu-card reveal">
+        <div class="edu-icon">📘</div>
+        <div class="edu-body">
+          <h3>Senior Secondary (12th)</h3>
+          <p class="edu-inst">Board of Secondary Education Rajasthan (BSER)</p>
+          <span class="edu-year">2020</span>
+        </div>
+      </div>
+      <div class="edu-card reveal">
+        <div class="edu-icon">📗</div>
+        <div class="edu-body">
+          <h3>Secondary (10th)</h3>
+          <p class="edu-inst">Board of Secondary Education Rajasthan (BSER)</p>
+          <span class="edu-year">2018</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Strengths -->
+    <div class="strengths-wrap reveal">
+      <h3 class="strengths-title">Strengths</h3>
+      <div class="strengths-grid">
+        <div class="strength-item">🧠 Problem Solving</div>
+        <div class="strength-item">⚡ Quick Learner</div>
+        <div class="strength-item">🤝 Team Collaboration</div>
+        <div class="strength-item">⏰ Time Management</div>
+        <div class="strength-item">🔍 Attention to Detail</div>
+        <div class="strength-item">🚀 Self-Motivated</div>
+        <div class="strength-item">🔄 Adaptability</div>
+        <div class="strength-item">💬 Communication Skills</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" aria-labelledby="contact-heading">
+    <div class="section-header reveal">
+      <p class="section-label">Let's Talk</p>
+      <h2 class="section-title" id="contact-heading">Get In <span>Touch</span></h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-info reveal">
+        <h3>Open to Opportunities</h3>
+        <p>Whether you have a project in mind, want to collaborate, or are looking for a Laravel developer — I'd love to hear from you. I'll get back within 24 hours.</p>
+        <div class="contact-links">
+          <a href="mailto:akshayjangid703@gmail.com" class="contact-link">
+            <div class="cl-icon">📧</div>
+            <div class="cl-text"><strong>Email</strong><span>akshayjangid703@gmail.com</span></div>
+          </a>
+          <a href="tel:+919636926767" class="contact-link">
+            <div class="cl-icon">📞</div>
+            <div class="cl-text"><strong>Phone</strong><span>+91 9636926767</span></div>
+          </a>
+          <div class="contact-link">
+            <div class="cl-icon">📍</div>
+            <div class="cl-text"><strong>Location</strong><span>Jaipur, Rajasthan, India</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="contact-card reveal">
+        <p>Feel free to reach out directly via email or phone. I'm always open to discussing new projects, creative ideas, or opportunities to be part of an exciting team.</p>
+        <a href="mailto:akshayjangid703@gmail.com" class="btn-primary" style="display:inline-block;margin-top:24px;">Send Me an Email ✉️</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-left">
+      <p>© 2024 <span>Akshay Jangid</span> — Crafted with HTML, CSS & JavaScript</p>
+      <p style="margin-top:4px;font-size:0.8rem;color:var(--text-muted);">Building scalable web applications, one project at a time 💻</p>
+    </div>
+    <div class="footer-right">
+      <a href="mailto:akshayjangid703@gmail.com" class="footer-icon" aria-label="Email">📧</a>
+      <a href="https://github.com/" target="_blank" rel="noopener" class="footer-icon" aria-label="GitHub">⬡</a>
+    </div>
+  </footer>
+
+  <button id="back-top" aria-label="Back to top">↑</button>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
