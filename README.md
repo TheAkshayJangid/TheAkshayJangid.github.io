@@ -28,7 +28,6 @@ I'm **Akshay Jangid** — a Laravel Developer based in Jaipur, Rajasthan, with h
 - 🎓 **BCA** — University of Technology *(2023)*
 - 📍 Jaipur, Rajasthan, India
 - 📧 akshayjangid703@gmail.com
-- 📞 +91 9636926767
 - 🚀 Open to new opportunities
 
 ---
